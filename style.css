@@ -39,7 +39,9 @@ header img {
   display: block;
   border-top: 2px solid gray;
 }
-
+.column-left img {
+  height: 100%;
+}
 .column-left {
   flex: 50%;
   margin-top: 0%;
@@ -166,7 +168,7 @@ h4 {
   padding-top: 3px;
 }
 .hdtext h2 {
-  padding: 5px;
+  padding: 2%;
   margin: 0%;
   letter-spacing: 2px;
   font-size: 3rem;
@@ -347,7 +349,7 @@ h3 {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -357,7 +359,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 680px) {
   .topnav.responsive {
     position: relative;
   }
@@ -405,5 +407,11 @@ h3 {
   }
   .col-3-c {
     flex: 100%;
+  }
+  .input input[type="submit"] {
+    margin: 0%;
+    width: 100%;
+    display: block;
+    padding-right: 10%;
   }
 }
