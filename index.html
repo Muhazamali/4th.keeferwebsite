@@ -11,6 +11,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+      rel="stylesheet"
+    />
+
     <script lang="text/javascript" src="script.js"></script>
   </head>
   <body>
@@ -48,14 +55,16 @@
           </a>
         </div>
         <div class="column-right frm">
-          <h2>QUESTIONS!</h2>
-          <span class="frmtext">
-            <h4>Have a</h4>
-            <h3>Question</h3>
-            <h4>About Your Case?</h4></span
+          <span class="frmmaintxt">
+            <span class="frmtxta"> <h2>QUESTIONS!</h2></span>
+            <span class="frmtxtb">
+              <h4>Have a</h4>
+              <h3>Question</h3>
+              <h4>About Your Case?</h4></span
+            ></span
           >
           <p class="info">
-            Enter your information and get your qquestion answered quickly and
+            Enter your information and get your question answered quickly and
             dicreetly or call us at: <b>540.433.6906</b>
           </p>
           <img
@@ -65,15 +74,15 @@
             width="30%"
           />
           <form action="">
-            <span class="input">
-              <label for="name">NAME:</label>
+            <span class="input1">
+              <label for="name">NAME &nbsp;:</label>
               <input type="text" name="name" id="" />
             </span>
-            <span class="input">
-              <label for="email">EMAIL:</label>
-              <input type="text" name="email" id=""
+            <span class="input1">
+              <label for="email">EMAIL &nbsp;:</label>
+              <input type="text" class="email" name="email" id=""
             /></span>
-            <span class="input">
+            <span class="input1">
               <label for="phone">PHONE:</label>
               <input type="text" name="phone" id="" />
             </span>
@@ -90,22 +99,31 @@ Tell us about your case here......</textarea
       <div class="row1">
         <div class="col-1">
           <span class="colsub-a">
-            <h2>CHARGED WITH</h2>
+            <br /><br />
+            <h2 class="gray">CHARGED WITH</h2>
             <h2 class="red">DUI?</h2>
             <h4>FREE CASE EVALUATION</h4>
+
             <p>
               Being charged with a DUI can be scary. Get the help you deserve.
-              <br />Click here to let us know how we can help you with your case
+              <br />
+              <br />
+              Click here to let us know how we can help you with your case
             </p>
           </span>
           <span class="colsub-b">
-            <img src="Task-Keefer/paste_board.gif" alt="" width="90%" />
+            <img
+              class="board"
+              src="Task-Keefer/paste_board.gif"
+              alt=""
+              width="90%"
+            />
           </span>
 
-          <button class="btn">CLICK HERE</button>
+          <button class="btn btn2">CLICK HERE</button>
         </div>
 
-        <div class="col-2">
+        <div class="col-2 center">
           <div class="colsub-a">
             <span class="hd">
               <h2 class="gray">LAW</h2>
@@ -121,10 +139,15 @@ Tell us about your case here......</textarea
           </div>
 
           <div class="colsub-b">
-            <img src="Task-Keefer/pic1.gif" alt="" width="90%" />
-            <hr />
-            <img src="Task-Keefer/order_icon.gif" alt="" width="90%" />
+            <img src="Task-Keefer/pic1.gif" alt="" width="100%" />
+            <img
+              class="order"
+              src="Task-Keefer/order_icon.gif"
+              alt=""
+              width="100%"
+            />
           </div>
+          <span class="line"></span>
         </div>
 
         <div class="col-3">
@@ -133,43 +156,45 @@ Tell us about your case here......</textarea
             <img
               src="Task-Keefer/national_college_small.gif"
               alt=""
-              width="30%"
+              width="40%"
             />
           </span>
           <span class="subrow2">
-            <h2>CERTIFICATES &</h2>
+            <h2 class="gray">CERTIFICATES &</h2>
+            <br />
             <h2 class="red">CREDENTIALS</h2>
             <p>
               Keffer Law firm has protected the rights of Virginians for over 30
               years
             </p>
-            <button class="btn-1">LEARN MORE</button>
+            <button class="btn-1 btn-2">LEARN MORE</button>
           </span>
         </div>
       </div>
       <div class="row3">
         <aside class="col-3-a">
-          <h2>PRACTICE</h2>
+          <h2 class="gray">PRACTICE</h2>
           <h2 class="red">AREAS</h2>
           <span class="badges">
             <h3>DUI & DWI</h3>
-            <h4>LEARN MORE</h4>
+
+            <a href="#"><h4>LEARN MORE</h4></a>
           </span>
           <span class="badges">
             <h3>RECKLESS DRIVING</h3>
-            <h4>LEARN MORE</h4>
+            <a href="#"><h4>LEARN MORE</h4></a>
           </span>
           <span class="badges">
             <h3>SPEEDING TICKETS</h3>
-            <h4>LEARN MORE</h4>
+            <a href="#"><h4>LEARN MORE</h4></a>
           </span>
           <span class="badges">
             <h3>TRAFFIC VIOLATIONS</h3>
-            <h4>LEARN MORE</h4>
+            <a href="#"><h4>LEARN MORE</h4></a>
           </span>
-          <h2>LEARN</h2>
+          <h2 class="gray">LEARN</h2>
           <h2 class="red">MORE</h2>
-          <h2>ABOUT</h2>
+          <h2 class="gray">ABOUT</h2>
         </aside>
         <div class="col-3-b">
           <h1>HERE GOES THE PAGE TITLE</h1>
@@ -185,26 +210,25 @@ Tell us about your case here......</textarea
         </div>
         <aside class="col-3-c">
           <span class="badges-b">
-            <h2>CLIENT</h2>
+            <h2 class="gray">CLIENT</h2>
             <h2 class="red">TESTIMONIALS</h2>
             <p>Read what other say about Keefer Law Firm</p>
-            <hr />
+
             <button class="btn-1">CLICK HERE</button>
           </span>
           <span class="badges-b">
-            <h2>DOWNLOAD</h2>
+            <h2 class="gray">DOWNLOAD</h2>
             <h2 class="red">FREE</h2>
-            <h2>REPORTS</h2>
+            <h2 class="gray">REPORTS</h2>
             <p>Discover the truth about Virgina Law</p>
-            <hr />
             <button class="btn-1">CLICK HERE</button>
           </span>
           <span class="badges-b">
-            <h2>CONTACT</h2>
+            <h2 class="gray">CONTACT</h2>
             <h2 class="red">OUR</h2>
-            <h2>OFFICES</h2>
+            <h2 class="gray">OFFICES</h2>
             <p>Get your questions answered right now</p>
-            <hr />
+
             <button class="btn-1">CLICK HERE</button>
           </span>
           <span class="badges-b">
@@ -218,7 +242,7 @@ Tell us about your case here......</textarea
             />
           </span>
           <span class="badges-b">
-            <h2 class="fl">FOLLOW</h2>
+            <h2 class="fl gray">FOLLOW</h2>
             <h2 class="red">US</h2>
             <hr />
             <a href="#">
